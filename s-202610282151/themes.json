@@ -1,0 +1,10 @@
+{
+  "active": null,
+  "themes": [
+    { "id": "default", "name": "Default" },
+    { "id": "christmas", "name": "Christmas" },
+    { "id": "halloween", "name": "Halloween" },
+    { "id": "easter", "name": "Easter" }
+  ]
+}
+

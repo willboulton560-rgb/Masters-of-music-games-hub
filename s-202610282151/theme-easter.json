@@ -1,0 +1,18 @@
+{
+  "name": "Easter",
+  "editionSuffix": "Easter Edition",
+  "palette": { "primary": "#f472b6", "secondary": "#7dd3fc", "accent": "#fde68a", "danger": "#fb7185", "bgTop": "#3b1d5e", "bgBottom": "#0c0818", "hue": 300, "text": "#fdf4ff" },
+  "particles": {
+    "ambient": { "colors": ["#f9a8d4", "#fde68a"], "count": 1, "speed": [0.3, 0.9], "life": [4000, 7000], "size": [2, 3], "gravity": 0.003, "drag": 0.998, "shape": "glyph", "glyphs": ["🌸", "✿"], "glow": false, "ambientPerSecond": 4 }
+  },
+  "sprites": {
+    "hero": { "glyph": "🐰", "color": "#f472b6" },
+    "enemy": { "glyph": "🐣", "color": "#fde68a" },
+    "boss": { "glyph": "🥚", "color": "#7dd3fc" },
+    "projectile": { "glyph": "🌸", "color": "#f9a8d4" },
+    "structure": { "glyph": "🧺", "color": "#fde68a" }
+  },
+  "intro": { "tagline": "The great egg siege", "heroGlyphs": ["🌸", "🥚", "🌷"] },
+  "ui": { "radius": 26, "panel": "rgba(44,22,70,.62)", "ghostFill": "rgba(255,255,255,.12)", "glow": 0.5 }
+}
+

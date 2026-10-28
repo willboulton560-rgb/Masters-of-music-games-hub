@@ -1,0 +1,10 @@
+{
+  "_note": "Local stand-in for Core's calendar (not built yet). Same shape the Core adapter will return: id, type (theme|battle|season|event), start, end (UTC ISO), title, optional themeId / gameId.",
+  "events": [
+    { "id": "halloween-2026", "type": "theme", "start": "2026-10-24T00:00:00Z", "end": "2026-11-01T00:00:00Z", "title": "Halloween Edition", "themeId": "halloween" },
+    { "id": "xmas-2026", "type": "theme", "start": "2026-12-01T00:00:00Z", "end": "2027-01-02T00:00:00Z", "title": "Christmas Edition", "themeId": "christmas" },
+    { "id": "easter-2027", "type": "theme", "start": "2027-03-22T00:00:00Z", "end": "2027-03-30T00:00:00Z", "title": "Easter Edition", "themeId": "easter" },
+    { "id": "battle-2026-10-28", "type": "battle", "start": "2026-10-28T00:00:00Z", "end": "2026-10-29T00:00:00Z", "title": "Family Battle: Neon Lanes (demo)", "gameId": "neon-lanes" }
+  ]
+}
+

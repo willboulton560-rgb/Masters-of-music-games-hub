@@ -1,0 +1,31 @@
+{
+  "name": "Christmas",
+  "editionSuffix": "Xmas Edition",
+  "palette": { "primary": "#ef4444", "secondary": "#86efac", "accent": "#fde047", "danger": "#f87171", "bgTop": "#0f3b2e", "bgBottom": "#050d14", "hue": 150, "text": "#fefce8" },
+  "particles": {
+    "ambient": { "colors": ["#ffffff"], "count": 1, "speed": [0.4, 1.1], "life": [5000, 9000], "size": [2, 4], "gravity": 0.004, "drag": 0.999, "shape": "glyph", "glyphs": ["❄", "❅", "❆"], "glow": false, "ambientPerSecond": 6 },
+    "hit": { "colors": ["#ffffff", "#86efac", "#ef4444"], "count": 18, "speed": [1.5, 5], "life": [260, 620], "size": [1.5, 3.5], "drag": 0.93, "shape": "spark" },
+    "celebrate": { "colors": ["#fde047", "#ef4444", "#86efac", "#ffffff"], "count": 70, "speed": [2, 8], "life": [600, 1300], "size": [2, 4], "gravity": 0.12, "drag": 0.97 }
+  },
+  "sprites": {
+    "hero": { "glyph": "🎅", "color": "#ef4444" },
+    "enemy": { "glyph": "☃️", "color": "#86efac" },
+    "boss": { "glyph": "🦌", "color": "#fde047" },
+    "projectile": { "glyph": "❄", "color": "#ffffff" },
+    "pickup": { "glyph": "🎁", "color": "#fde047" },
+    "power": { "glyph": "🔔", "color": "#fde047" },
+    "structure": { "glyph": "🎄", "color": "#86efac" }
+  },
+  "audio": {
+    "music": { "bpm": 120, "root": 293.66, "scale": [0, 2, 4, 5, 7, 9, 11], "pattern": [2, 2, 2, -1, 2, 2, 2, -1, 2, 4, 0, 1, 2, -1, -1, -1], "bass": true, "wave": "triangle" },
+    "sfx": { "tap": { "wave": "sine", "from": 1568, "to": 2093, "ms": 120, "gain": 0.14 } }
+  },
+  "intro": { "tagline": "Snow falls on the battlefield", "heroGlyphs": ["❄", "⭐", "🎁"], "vignette": 0.5 },
+  "games": {
+    "castle-clash": { "title": "Castle Clash: Xmas Edition", "intro": { "tagline": "Siege the Ice Keep" } },
+    "galaxy-strike": { "title": "Galaxy Strike: Xmas Edition", "intro": { "tagline": "Present drones over a snowy nebula" }, "sprites": { "enemy": { "glyph": "🎁", "color": "#ef4444" }, "dart": { "glyph": "⛄", "color": "#ffffff" }, "tank": { "glyph": "🦌", "color": "#fde047" }, "mine": { "glyph": "🔔", "color": "#fde047" }, "boss": { "glyph": "🎅", "color": "#ef4444" }, "projectile": { "glyph": "❄", "color": "#ffffff" } } }
+  },
+  "ui": { "radius": 22, "panel": "rgba(6,36,28,.72)", "ghostFill": "rgba(255,255,255,.1)", "glow": 0.7 },
+  "budgetBytes": 300000
+}
+

@@ -1,0 +1,1 @@
+function i(e){const t=new Map;for(const n of e){const s=t.get(n[0]);s?s.push(n):t.set(n[0],[n])}return n=>t.get(n)??[]}const o={};function r(e,t){const n=parseInt(e.manifest.engineApi,10);if(n===t)return e;const s=o[n];return s?s(e):null}const a={adapt:r,adapters:o,indexLog:i};export{a as e};

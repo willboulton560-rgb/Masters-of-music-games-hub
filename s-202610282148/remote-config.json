@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "ttlMinutes": 30,
+  "flags": { "music.licensedEnabled": false, "shop.open": false, "multiplayer.realtime": false, "multiplayer.asyncTurns": true, "chat.gameCards": true, "dev.panel": true },
+  "values": {
+    "buffs.caps": { "earned": 0.15, "event": 0.05, "paid": 0.05, "total": 0.2 },
+    "score.limits": { "maxPointsPerSecond": 600, "minSeconds": 8, "maxRunsPerHour": 30, "minGapSeconds": 5 },
+    "chat.rallyPerMinute": 6,
+    "intro.maxSeconds": 6
+  },
+  "games": { "neon-lanes": { "games.neon-lanes": { "bossHp": 30 } } }
+}
+
